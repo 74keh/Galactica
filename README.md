@@ -1,0 +1,3 @@
+# Galactica
+
+A Simple RDBMS
