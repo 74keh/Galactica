@@ -6,7 +6,9 @@ pub struct Page {
 
 impl Page {
     pub fn new(block_size: usize) -> Self {
-        Page { byte_buffer: vec![0; block_size] }
+        Page {
+            byte_buffer: vec![0; block_size],
+        }
     }
 
     pub fn from_bytes(bytes: Vec<u8>) -> Self {

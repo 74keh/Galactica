@@ -1,4 +1,4 @@
-use std::fs::{create_dir_all, read_dir, remove_file, File, OpenOptions};
+use std::fs::{File, OpenOptions, create_dir_all, read_dir, remove_file};
 use std::io::{Error, Read, Seek, SeekFrom, Write};
 use std::path::Path;
 
