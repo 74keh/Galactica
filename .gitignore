@@ -16,3 +16,6 @@ Thumbs.db
 
 # Debug
 *.dSYM/
+
+# Test
+filetest/
