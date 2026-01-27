@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use crate::file::file_manager;
 
 pub struct Galactica {

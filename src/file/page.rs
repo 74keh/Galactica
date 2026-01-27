@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::string::FromUtf8Error;
 
 pub struct Page {

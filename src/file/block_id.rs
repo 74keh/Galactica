@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct BlockId {
     file_name: String,

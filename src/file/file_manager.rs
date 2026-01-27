@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::fs::{File, OpenOptions, create_dir_all, read_dir, remove_file};
 use std::io::{Error, Read, Seek, SeekFrom, Write};
 use std::path::Path;
@@ -90,6 +92,7 @@ impl FileManager {
             .read(true)
             .write(true)
             .create(true)
+            .truncate(false)
             .open(&filename)
     }
 }
